@@ -8,7 +8,7 @@ class Orders extends MY_Controller {
 		$this->load->view("orders/checkout");
 	}
 
-	public function charge() {
+	/*public function charge() {
 		\Stripe\Stripe::setApiKey("sk_test_UAlnU8CPVoBkKFT6FyWL3UbU");
 
 		$token = $_POST['stripeToken'];
@@ -24,7 +24,7 @@ class Orders extends MY_Controller {
 
 		}
 
-	}
+	}*/
 
 	
 	public function create() {

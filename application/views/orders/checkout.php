@@ -76,7 +76,7 @@
 								<button type="submit">Pay on delivery</button>
 							</form>
 						</div>
-						<div class="col-md-6">
+						<!--<div class="col-md-6">
                    		<form action="/orders/charge" class="pull-right" method="post">
                    			<input type="hidden" name="amount" value="<?= $grand_total*100?>">
 							<script
@@ -89,7 +89,7 @@
 								data-locale="en">
 							</script>
 						</form>
-						</div>
+						</div>-->
                         
 				    </div>
                 </div>
